@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.top-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3367d6;
+  width: 100%;
+}
+.image {
+  width: 100px;
+  margin-right: 21px;
+}
+.search-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #2850a7;
+  border-color: #6697ff;
+  height: 36px;
+}
+.search-icon {
+  width: 20px;
+  height: 35px;
+  border-left-color: #6697ff;
+  background-color: transparent;
+}
+.content-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  min-width: 400px;
+}
+.inner-holder {
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-color: #ececec;
+}
+.item-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.time {
+  color: #64748b;
+  font-weight: bold;
+  font-size: small;
+  margin-right: 20%;
+  align-items: center;
+}
+.icon-delete-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon-holder {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-element {
+  width: 20%;
+  height: 20px;
+  margin-right: 20px;
+}
+.logo-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  color: #475569;
+  font-size: small;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.website {
+  color: #64748b;
+  font-size: small;
+}
+.delete-button {
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+}
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+.empty-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty-element {
+  color: #64748b;
+  font-size: 20px;
+}
